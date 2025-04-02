@@ -24,3 +24,10 @@ The EvoCP codebase is structured for clarity, modularity, and reproducibility:
 
 ## License
 MIT
+
+The `math500.jsonl` benchmark is derived from:
+Dan Hendrycks et al., "Measuring Mathematical Problem Solving With the MATH Dataset" (2021)  
+https://github.com/hendrycks/math  
+Licensed under the MIT License.
+
+
