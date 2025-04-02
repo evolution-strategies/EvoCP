@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches
+.cache/
+*.egg-info/
+.eggs/
+*.pkl
+*.joblib
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temp
+*.log
+*.tmp
+*.bak
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Data and results
+results/
+*.jsonl
+
+# VSCode and PyCharm
+.vscode/
+.idea/
