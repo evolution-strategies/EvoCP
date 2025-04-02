@@ -1,3 +1,8 @@
 MIT License
-
 Copyright (c) 2025 Oliver Kramer
+
+
+The `math500.jsonl` benchmark is derived from:
+Dan Hendrycks et al., "Measuring Mathematical Problem Solving With the MATH Dataset" (2021)  
+https://github.com/hendrycks/math  
+Licensed under the MIT License.
