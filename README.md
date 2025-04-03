@@ -1,6 +1,10 @@
 # EvoCP: Evolutionary Cognitive Prompting
 
 This project implements an evolutionary prompt optimization framework using cognitive operations and local language models.
+Associated with the paper “Evolutionary Cognitive Prompting for Enhancing the Capabilities of Language Models”, presented at the IEEE Conference on Artificial Intelligence 2025, Santa Clara.
+
+## Abstract
+This paper presents an evolutionary algorithm (EA) based agent approach for optimizing prompt-based mathematical problem-solving in language models (LMs). The system follows an agent-based evolutionary approach, where a single cognitive prompt undergoes iterative mutation and selection based on solution quality. A problem-solving agent generates solutions, a fitness evaluation agent scores responses without ground truth access, and a correctness verification agent terminates evolution upon identifying a correct solution. Evaluated on the MATH500 benchmark with the Llama 3.2 3B model, our approach demonstrates that evolutionary cognitive prompting (EvoCP) improves accuracy and accelerates convergence, highlighting the potential of EAs for improving LM reasoning in mathematical domains. The solve rate increases from 0.15 to 0.85, showing that EvoCP enables a compact LM to achieve significantly higher problem-solving capabilities.
 
 ## How to Run
 1. Install dependencies: `pip install -r requirements.txt`
